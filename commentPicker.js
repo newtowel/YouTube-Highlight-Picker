@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyCMTpJFgAHRaYjZOfp7665fgl1h-U5d1Ws";
+const API_KEY = "YOUR_API_KEY_HERE";
 chrome.tabs.query({active: true, currentWindow: true}).then(tabs => {
     const currentUrl = tabs[0].url;
     //現在のURLがYouTubeの動画ページなら
