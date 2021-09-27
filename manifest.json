@@ -1,0 +1,11 @@
+{
+    "manifest_version":3,
+    "name":"YouTubeで時刻付きコメントを拾うやつ",
+    "description":"今見ているYouTubeの動画の、ほかの人のおすすめシーンを知りたい場合などのために再生時刻を含むコメントを抽出します。",
+    "version":"1.0",
+    "action":{
+        "default_title":"再生時間付きコメントを確認",
+        "default_popup":"commentPanel.html"
+    },
+    "permissions":["tabs", "scripting", "activeTab"]
+}
